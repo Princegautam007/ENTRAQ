@@ -47,6 +47,14 @@ export default function Entry() {
 
   return (
     <div className="container">
+      
+      {/* --- NEW HOME BUTTON --- */}
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-start', marginBottom: '20px' }}>
+        <a href="/" style={{ background: '#222', color: 'white', padding: '8px 15px', borderRadius: '6px', textDecoration: 'none', border: '1px solid #333' }}>
+          🏠 Home
+        </a>
+      </div>
+
       <h1 className="title">🎟️ Join an Event</h1>
       
       {/* 1. LIST OF EVENTS */}
